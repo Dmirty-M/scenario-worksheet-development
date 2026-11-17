@@ -1,0 +1,46 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+credentials.*
+secrets.json
+secrets.*
+.claude/settings.local.json
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# JetBrains IDEs
+.idea/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
